@@ -43,11 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FAbrykaAbstrakcji\AbstractFactory.cs" />
+    <Compile Include="FAbrykaAbstrakcji\CSVEditor.cs" />
+    <Compile Include="FAbrykaAbstrakcji\IFileEditor.cs" />
+    <Compile Include="FAbrykaAbstrakcji\TxtEditor.cs" />
+    <Compile Include="FAbrykaAbstrakcji\XMLEditor.cs" />
+    <Compile Include="Budowniczy\CsvBuilder.cs" />
+    <Compile Include="Budowniczy\Director.cs" />
+    <Compile Include="Budowniczy\IFileBuildable.cs" />
+    <Compile Include="Budowniczy\TxtBuilder.cs" />
+    <Compile Include="Budowniczy\XmlBuilder.cs" />
+    <Compile Include="Prototyp\EmployeePrototype.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
